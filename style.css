@@ -1,7 +1,11 @@
-.dela-gothic-one-regular{
-    font-family: "Dela Gothic One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.montserrat-regular{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.montserrat-bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 body{
@@ -60,9 +64,20 @@ header{
     align-items: center;
     justify-content: center;
 
-    background-color: coral;
-
+    background-color: rgb(85, 85, 85);
+    
     font-size: 30px;
+    color: white;
+}
+
+.header-icon{
+    margin: 0px;
+    margin-right: 15px;
+    border: 0px;
+    padding: 0px;
+
+    height: 30px;
+    width: auto;
 }
 
 #header-bottom{
@@ -77,40 +92,26 @@ header{
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(255, 180, 153);
+    background-color: rgb(85, 85, 85);
 }
 
 .header-buttons{
-    margin: 10px;
+    margin: 0px;
     border: 0px;
     padding: 0px;
 
-    height: 40px;
-    width: 140px;
+    height: 75px;
+    width: 300px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-color: coral;
-
+    background-color: rgb(85, 85, 85);
+    
     font-size: 20px;
+    color: white;
 }
-
-/*
-#header-button-1{
-    background-color: teal;
-}
-#header-button-2{
-    background-color: red;
-}
-#header-button-3{
-    background-color: blue;
-}
-#header-button-4{
-    background-color: yellow;
-}
-*/
 
 .header-button-icon{
     margin: 0px;
@@ -120,4 +121,13 @@ header{
 
     height: 20px;
     width: 20px;
+}
+
+#pdf-reader{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+    height: 1000px;
+    width: 100%;
 }

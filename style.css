@@ -56,10 +56,7 @@ header{
     height: 150px;
     width: auto;
 
-    background-image: url(img/header.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: rgb(43, 43, 43);
 }
 
 #header-top{
@@ -75,7 +72,7 @@ header{
     justify-content: center;
  
     font-size: 30px;
-    color: black;
+    color: white;
 }
 
 .header-icon{
@@ -101,13 +98,15 @@ header{
     align-items: center;
 }
 
+/* Buttons */
+
 .header-buttons{
     margin: 0px;
     border: 0px;
     padding: 0px;
 
     height: 75px;
-    width: 300px;
+    width: 250px;
 
     display: flex;
     justify-content: center;
@@ -116,9 +115,13 @@ header{
     background-color: transparent;
 
     font-size: 20px;
-    color: black;
+    color: white;
 
     text-decoration: none;
+}
+
+.header-buttons:hover{
+    background-color: rgb(81, 81, 81);
 }
 
 .header-button-icon{
@@ -131,12 +134,46 @@ header{
     width: 20px;
 }
 
+/* Dropdown button */
 
+.dropdown{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 
+    display: inline-block;
+}
 
+.dropdown buttton{
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
 
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
 
-/* PDF READER
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(43, 43, 43);
+    min-width: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown a:hover{
+    background-color: rgb(81, 81, 81);
+}
 
 #pdf-reader{
     margin: 0px;
@@ -146,4 +183,3 @@ header{
     height: 1000px;
     width: 100%;
 }
-*/
